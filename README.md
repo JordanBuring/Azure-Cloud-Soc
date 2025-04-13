@@ -9,7 +9,8 @@
 For this project, I used 2 Virtual Machines that have specific inbound rules set to fully expose the 2 Virtual Machines to attacks on the Internet. I then used the Log's in the Log Analytics Workspace in Azure to ingest the custom logs containing the geographic information (latitude, longitude, state/province, and country) of the Remote Desktop(RDP) attacks on the VM's. Within Microsoft Sentinel's workbooks I added KQL queries such as:
 ![KQLQuery](https://github.com/JordanBuring/Files/blob/main/KQLquery1.jpg)
 
-
+Here is the workbook that was built in order to show the global RDP brute force attacks on the VM in order to indicate the physical location of the attacks and their magnitude.
+![MaliciousTraffic]()
 
 A Table was configured in the Log Analytics Workspace to extract the raw data being received by the custom logs and to interpret said data in order to map geo data in Microsoft Sentinel. A Microsoft Sentinel (Azure SIEM) workbook was built in order to overlay the global RDP brute force attacks on the VM to a world map in order to indicate the physical location of the attacks and their magnitude.
 
