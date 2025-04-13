@@ -1,5 +1,7 @@
 ## Honeynet in Azure (Live Traffic)
 
+![FullDisplay](.)
+
 ![Microsoft Sentinel Data Flow](https://github.com/JordanBuring/Files/blob/main/MicrosoftSentinelFlowChart.jpg)
 
 ## Description 
