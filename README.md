@@ -1,6 +1,4 @@
-# Azure-Cloud-Soc
-
-# Microsoft-Sentinel-Home-Lab
+# Building a SOC + Honeynet in Azure (Live Traffic)
 
 ![Microsoft Sentinel Data Flow](https://github.com/JordanBuring/Files/blob/main/MicrosoftSentinelFlowChart.jpg)
 
