@@ -6,9 +6,9 @@
 
 ## Description 
 
-**Creating a Honeynet with a virtual machine's hosted on Azure and utilizing Microsoft Sentinel to map the location and magnitude of the Malicious Attacks on the VM, and VM Authentication Failures to the entire Log(N) Pacific's Cyber Range Virtual Machines.**
+**Creating a Honeynet with virtual machine's hosted on Azure and utilizing Microsoft Sentinel to map the location and magnitude of the Malicious Attacks on the VM, and VM Authentication Failures to the entire Log(N) Pacific's Cyber Range Virtual Machines.**
 
-For this project, I used 2 Virtual Machines that have specific inbound rules set to fully expose the 2 Virtual Machines to attacks on the Internet. I then used the Log's in the Log Analytics Workspace in Azure to ingest the custom logs containing the geographic information (latitude, longitude, state/province, and country) of the attacks on the VM's. Within Microsoft Sentinel's workbooks I added KQL queries such as this and json code to create maps:
+For this project, I used 2 Virtual Machines that have allow all RDP inbound/outbound traffic to fully expose the 2 Virtual Machines to attacks on the Internet. I then used the Log's in the Log Analytics Workspace in Azure to ingest the logs containing the geographic information (latitude, longitude, state/province, and country) of the attacks on the VM's. Within Microsoft Sentinel's workbooks I added KQL queries such as this and json code to create maps:
 ![KQLQuery](https://github.com/JordanBuring/Files/blob/main/KQLquery1.jpg)
 
 
